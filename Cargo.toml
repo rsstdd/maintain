@@ -8,5 +8,5 @@ edition = "2018"
 
 [dependencies]
 ansi_term = "0.12.1"
-indicatif = "0.15.0"
 clap = "2.33.3"
+indicatif = "0.15.0"
