@@ -11,7 +11,7 @@ use std::str::FromStr;
 use termcolor::{Color, ColorChoice, ColorSpec, StandardStream, WriteColor};
 
 mod color {
-  pub fn write_color(color: <SOME TYPE OF COLOR> ) -> io::Result<()> {
+  pub fn write_color(color: <> ) -> io::Result<()> {
     let mut stdout = StandardStream::stdout(ColorChoice::Always);
     stdout.set_color(ColorSpec::new().set_fg(Some(Color::color)))?;
     io::stdout().write_all(&output.stdout).unwrap();
